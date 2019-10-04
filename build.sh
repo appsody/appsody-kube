@@ -2,11 +2,7 @@
 #Takes three parms:
 #CLI_VERSION
 #TRAVIS_TAG
-<<<<<<< HEAD
-#CONTROLER_VERSION
-=======
 #CONTROLLER_VERSION
->>>>>>> 32dfa3570a52396eb057c30347e384002f5e94d1
 set -e
 export CONTROLLER_BASE_URL=https://github.com/appsody/controller/releases/download/$3
 echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
