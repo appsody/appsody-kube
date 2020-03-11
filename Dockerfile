@@ -7,6 +7,7 @@ RUN yum -y install wget
 ARG CLI_VERSION
 ARG CONTROLLER_BASE_URL
 ENV KUBE_LATEST_VERSION="v1.11.1"
+ENV APPSODY_K8S_EXPERIMENTAL=TRUE
 RUN wget https://github.com/appsody/appsody/releases/download/${CLI_VERSION}/appsody-${CLI_VERSION}-1.x86_64.rpm
 RUN yum localinstall -y ./appsody-${CLI_VERSION}-1.x86_64.rpm
 RUN wget https://storage.googleapis.com/kubernetes-release/release/${KUBE_LATEST_VERSION}/bin/linux/amd64/kubectl
