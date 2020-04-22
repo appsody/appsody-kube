@@ -9,6 +9,8 @@ This repo includes a `.travis.yml` file that builds and pushes the image to Dock
 docker build -t appsody-k8s -f Dockerfile .
 ```
 
+**Note:** This image is experimental and is used by the Appsody team for the purpose of testing. As such, images on Dockerhub may be outdated.
+
 ### Running the image locally
 If you want to run the image manually, issue the following command:
 
