@@ -1,3 +1,5 @@
+## Development of Appsody as a standalone project has ended, but the core technologies of Appsody have been merged with odo to create odo 2.0! See our [blog post](https://appsody.dev/blogs/DevelopmentEnded) for more details!
+
 # Appsody on Kubernetes
 
 This repository contains the artifacts needed to build an image on which you can run the Appsody CLI in a Kubernetes pod. The image includes the Appsody CLI, the [buildah](`quay.io/buildah/stable`) tool, and the `kubectl` command line.
